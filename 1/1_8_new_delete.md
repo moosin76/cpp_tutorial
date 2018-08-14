@@ -53,12 +53,12 @@ int main(void)
 ```
 # 참고 C++ 에서 C언어 표준함수 사용하기
 .h를 빼고 앞에 c를 붙이면됩니다.
-|C표준||C++표준|
-|---|---|---|
-|`#include <stdio.h>`|->|`#include <cstdio>`|
-|`#include <stdlib.h>`|->|`#include <cstdlib>`|
-|`#include <math.h>`|->|`#include <cmath>`|
-|`#include <string.h>`|->|`#include <cstring>`|
+| C표준 | | C++표준 |
+|---|:---:|---|
+| `#include <stdio.h>` | -> | `#include <cstdio>` |
+| `#include <stdlib.h>` | -> | `#include <cstdlib>` |
+| `#include <math.h>` | -> | `#include <cmath>` |
+| `#include <string.h>` | -> | `#include <cstring>` |
 
 ---
 [목록으로](https://github.com/moosin76/cpp_tutorial)
