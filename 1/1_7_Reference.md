@@ -134,8 +134,11 @@ func 함수의 원형이 다음과 같다면
 void func(int a); // 이렇다면 20이 출력된다.
 void func(int &a); // 참조로 받는다면 a값이 변경될 수도 있다.
 ```
+
+`const`를 사용하여 참조로 받지만 a값을 변경할 수 없도록 상수화 한다.
+
 ```c
-void func(const int &a); // 참조로 받지만 a값을 변경할 수 없도록 상수화 한다.
+void func(const int &a); 
 ```
 
 # 반환형이 참조자료형인 함수

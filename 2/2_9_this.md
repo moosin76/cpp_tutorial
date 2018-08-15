@@ -76,5 +76,7 @@ int main() {
 }
 ```
 
+반환형이 `Point&`이고 이렇게 `return *this;`로 반환하면 참조자 정보를 반환한다.
+
 ---
 [목록으로](https://github.com/moosin76/cpp_tutorial)

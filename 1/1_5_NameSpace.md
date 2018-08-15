@@ -103,6 +103,9 @@ int main(void)
 ```
 
 # ::(범위지정연산자)의 또다른 기능
+
+범위지정 연산자를 이용하여 전역변수에 접근할 수 있습니다.
+
 ```c
 #include <iostream>
 using namespace std;

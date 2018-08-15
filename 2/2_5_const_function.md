@@ -1,4 +1,4 @@
-# cosnt 함수
+# const 함수
 cosnt 함수는 함수 내부에서 멤버변수의 값을 변경하지 않겠다 라는 의미를 갖습니다.
 
 `void Seller::showStatus()` 함수와 `void Buyer::showStatus()` 함수 모두 함수 내부에서 멤버 변수의 값을 변경하지 않으므로 다음과 같이 const 함수로 작성할 수 있습니다.
