@@ -20,5 +20,7 @@
 1. [생성자](https://github.com/moosin76/cpp_tutorial/blob/master/2/2_6_constructor.md)
 1. [소멸자](https://github.com/moosin76/cpp_tutorial/blob/master/2/2_7_destructor.md)
 1. [객체배열](https://github.com/moosin76/cpp_tutorial/blob/master/2/2_8_object_array.md)
-1. [this 포인터](https://github.com/moosin76/cpp_tutorial/blob/master/2/2_9_this.md)
-
+1. [복사생성자](https://github.com/moosin76/cpp_tutorial/blob/master/2/2_10_copy_constructor.md)
+1. [const 객체](https://github.com/moosin76/cpp_tutorial/blob/master/2/2_11_const_object.md)
+1. [C++에서 static](https://github.com/moosin76/cpp_tutorial/blob/master/2/2_12_static.md)
+1. [friend 클래스 및 함수](https://github.com/moosin76/cpp_tutorial/blob/master/2/2_13_friend.md)
