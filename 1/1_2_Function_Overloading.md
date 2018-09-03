@@ -36,5 +36,35 @@ int main(void)
 - 매개변수의 개수
 
 **주의: 반환자료형은 호출되는 함수를 구분하는 기준이 될수 없습니다.**
+
+# 자료형 추론
+
+`auto`를 사용하면 변수를 선언할때 특정 데이터형을 지정하지 않아도 자동으로 자료형을 결정하게 된다.
+
+```c
+#include <iostream>
+
+int func(int num) {
+  return num * 2;
+}
+
+int func(int num1, int num2) {
+  return num1 + num2;
+}
+
+double func(double num) {
+  return num / 2;
+}
+
+int main(void)
+{
+  auto num1 = func(5, 2);
+  auto num2 = func(8.7);
+
+  std::cout << sizeof(num1) << std::endl;
+  std::cout << sizeof(num2) << std::endl;
+  return 0;
+}
+```
 ---
 [목록으로](https://github.com/moosin76/cpp_tutorial)
