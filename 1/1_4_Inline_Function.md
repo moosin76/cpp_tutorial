@@ -22,5 +22,11 @@ int main(void)
 }
 ```
 
+## 인라인 함수가 안되는 경우
+- 함수의 크기가 큰경우
+- 재귀호출하는 경우
+- 함수포인터로 가리키는 함수
+
+​
 ---
 [목록으로](https://github.com/moosin76/cpp_tutorial)
